@@ -9,4 +9,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'NSURL*.{h,m}'
   s.compiler_flags = '-fno-objc-arc'
+  
+  s.requires_arc = false
 end
